@@ -62,8 +62,8 @@ public class AccelerometerFromDeltaPosition : MonoBehaviour {
         fullString.Add("count,delta,accelx,accely,accelz,pos1x,pos1y,pos1z,pos2x,pos2y,pos2z,gforcex,gforcey,gforcez,movementType");
 
         for (int i = 0; i < listTarget.Count; i++) {
-            fullString.Add(listTarget[i].timestamp.ToString() + ',' +
-                listTarget[i].deltaTime.ToString("F6") + ',' +
+            fullString.Add(listTarget[i].timestamp.ToString("F6").Replace(',', '.') + ',' +
+                listTarget[i].deltaTime.ToString("F6").Replace(',', '.') + ',' +
                 listTarget[i].values.x.ToString("F6").Replace(',', '.') + ',' +
                 listTarget[i].values.y.ToString("F6").Replace(',', '.') + ',' +
                 listTarget[i].values.z.ToString("F6").Replace(',', '.') + ',' +
