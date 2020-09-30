@@ -1,0 +1,128 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     uma_falls
+Instances:    10486
+Attributes:   82
+              AcelX0
+              AcelY0
+              AcelZ0
+              AcelX1
+              AcelY1
+              AcelZ1
+              AcelX2
+              AcelY2
+              AcelZ2
+              AcelX3
+              AcelY3
+              AcelZ3
+              AcelX4
+              AcelY4
+              AcelZ4
+              AcelX5
+              AcelY5
+              AcelZ5
+              AcelX6
+              AcelY6
+              AcelZ6
+              AcelX7
+              AcelY7
+              AcelZ7
+              AcelX8
+              AcelY8
+              AcelZ8
+              AcelX9
+              AcelY9
+              AcelZ9
+              AcelX10
+              AcelY10
+              AcelZ10
+              AcelX11
+              AcelY11
+              AcelZ11
+              AcelX12
+              AcelY12
+              AcelZ12
+              AcelX13
+              AcelY13
+              AcelZ13
+              AcelX14
+              AcelY14
+              AcelZ14
+              AcelX15
+              AcelY15
+              AcelZ15
+              AcelX16
+              AcelY16
+              AcelZ16
+              AcelX17
+              AcelY17
+              AcelZ17
+              AcelX18
+              AcelY18
+              AcelZ18
+              AcelX19
+              AcelY19
+              AcelZ19
+              AcelX20
+              AcelY20
+              AcelZ20
+              AcelX21
+              AcelY21
+              AcelZ21
+              AcelX22
+              AcelY22
+              AcelZ22
+              AcelX23
+              AcelY23
+              AcelZ23
+              AcelX24
+              AcelY24
+              AcelZ24
+              MediaX
+              MediaY
+              MediaZ
+              DesvX
+              DesvY
+              DesvZ
+              class
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 7.94 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.43 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        2896               94.8265 %
+Incorrectly Classified Instances       158                5.1735 %
+Kappa statistic                          0.8966
+Mean absolute error                      0.2474
+Root mean squared error                  0.2811
+Relative absolute error                 49.4846 %
+Root relative squared error             56.2122 %
+Total Number of Instances             3054     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,935    0,038    0,962      0,935    0,948      0,897    0,987     0,989     Caida
+                 0,962    0,065    0,935      0,962    0,948      0,897    0,987     0,983     NoCaida
+Weighted Avg.    0,948    0,051    0,949      0,948    0,948      0,897    0,987     0,986     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1447  101 |    a = Caida
+   57 1449 |    b = NoCaida
+

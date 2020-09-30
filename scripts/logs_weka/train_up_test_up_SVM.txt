@@ -1,0 +1,121 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LibSVM -S 0 -K 2 -D 3 -G 0.0 -R 0.0 -N 0.5 -M 40.0 -C 1.0 -E 0.001 -P 0.1 -model "C:\\Program Files\\Weka-3-8-4" -seed 1
+Relation:     up_falls
+Instances:    11896
+Attributes:   82
+              AcelX0
+              AcelY0
+              AcelZ0
+              AcelX1
+              AcelY1
+              AcelZ1
+              AcelX2
+              AcelY2
+              AcelZ2
+              AcelX3
+              AcelY3
+              AcelZ3
+              AcelX4
+              AcelY4
+              AcelZ4
+              AcelX5
+              AcelY5
+              AcelZ5
+              AcelX6
+              AcelY6
+              AcelZ6
+              AcelX7
+              AcelY7
+              AcelZ7
+              AcelX8
+              AcelY8
+              AcelZ8
+              AcelX9
+              AcelY9
+              AcelZ9
+              AcelX10
+              AcelY10
+              AcelZ10
+              AcelX11
+              AcelY11
+              AcelZ11
+              AcelX12
+              AcelY12
+              AcelZ12
+              AcelX13
+              AcelY13
+              AcelZ13
+              AcelX14
+              AcelY14
+              AcelZ14
+              AcelX15
+              AcelY15
+              AcelZ15
+              AcelX16
+              AcelY16
+              AcelZ16
+              AcelX17
+              AcelY17
+              AcelZ17
+              AcelX18
+              AcelY18
+              AcelZ18
+              AcelX19
+              AcelY19
+              AcelZ19
+              AcelX20
+              AcelY20
+              AcelZ20
+              AcelX21
+              AcelY21
+              AcelZ21
+              AcelX22
+              AcelY22
+              AcelZ22
+              AcelX23
+              AcelY23
+              AcelZ23
+              AcelX24
+              AcelY24
+              AcelZ24
+              MediaX
+              MediaY
+              MediaZ
+              DesvX
+              DesvY
+              DesvZ
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+LibSVM wrapper, original code by Yasser EL-Manzalawy (= WLSVM)
+
+Time taken to build model: 28.11 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       11026               92.6866 %
+Incorrectly Classified Instances       870                7.3134 %
+Kappa statistic                          0.8537
+Mean absolute error                      0.0731
+Root mean squared error                  0.2704
+Relative absolute error                 14.6268 %
+Root relative squared error             54.0865 %
+Total Number of Instances            11896     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,921    0,067    0,932      0,921    0,926      0,854    0,927     0,898     Caida
+                 0,933    0,079    0,922      0,933    0,927      0,854    0,927     0,893     NoCaida
+Weighted Avg.    0,927    0,073    0,927      0,927    0,927      0,854    0,927     0,896     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 5477  471 |    a = Caida
+  399 5549 |    b = NoCaida
+

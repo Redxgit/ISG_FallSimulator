@@ -1,0 +1,354 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.AdaBoostM1 -P 100 -S 1 -I 10 -W weka.classifiers.trees.DecisionStump
+Relation:     uma_falls
+Instances:    10486
+Attributes:   82
+              AcelX0
+              AcelY0
+              AcelZ0
+              AcelX1
+              AcelY1
+              AcelZ1
+              AcelX2
+              AcelY2
+              AcelZ2
+              AcelX3
+              AcelY3
+              AcelZ3
+              AcelX4
+              AcelY4
+              AcelZ4
+              AcelX5
+              AcelY5
+              AcelZ5
+              AcelX6
+              AcelY6
+              AcelZ6
+              AcelX7
+              AcelY7
+              AcelZ7
+              AcelX8
+              AcelY8
+              AcelZ8
+              AcelX9
+              AcelY9
+              AcelZ9
+              AcelX10
+              AcelY10
+              AcelZ10
+              AcelX11
+              AcelY11
+              AcelZ11
+              AcelX12
+              AcelY12
+              AcelZ12
+              AcelX13
+              AcelY13
+              AcelZ13
+              AcelX14
+              AcelY14
+              AcelZ14
+              AcelX15
+              AcelY15
+              AcelZ15
+              AcelX16
+              AcelY16
+              AcelZ16
+              AcelX17
+              AcelY17
+              AcelZ17
+              AcelX18
+              AcelY18
+              AcelZ18
+              AcelX19
+              AcelY19
+              AcelZ19
+              AcelX20
+              AcelY20
+              AcelZ20
+              AcelX21
+              AcelY21
+              AcelZ21
+              AcelX22
+              AcelY22
+              AcelZ22
+              AcelX23
+              AcelY23
+              AcelZ23
+              AcelX24
+              AcelY24
+              AcelZ24
+              MediaX
+              MediaY
+              MediaZ
+              DesvX
+              DesvY
+              DesvZ
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+AdaBoostM1: Base classifiers and their weights: 
+
+Decision Stump
+
+Classifications
+
+DesvZ <= -0.45411667252083554 : NoCaida
+DesvZ > -0.45411667252083554 : Caida
+DesvZ is missing : Caida
+
+Class distributions
+
+DesvZ <= -0.45411667252083554
+Caida	NoCaida	
+0.13346774193548386	0.8665322580645162	
+DesvZ > -0.45411667252083554
+Caida	NoCaida	
+0.8289902280130294	0.17100977198697068	
+DesvZ is missing
+Caida	NoCaida	
+0.5	0.5	
+
+
+Weight: 1.71
+
+Decision Stump
+
+Classifications
+
+DesvZ <= -0.8151825590903765 : NoCaida
+DesvZ > -0.8151825590903765 : Caida
+DesvZ is missing : NoCaida
+
+Class distributions
+
+DesvZ <= -0.8151825590903765
+Caida	NoCaida	
+0.0510292488573908	0.9489707511426091	
+DesvZ > -0.8151825590903765
+Caida	NoCaida	
+0.5347231173177724	0.46527688268222755	
+DesvZ is missing
+Caida	NoCaida	
+0.463942104010118	0.536057895989882	
+
+
+Weight: 0.39
+
+Decision Stump
+
+Classifications
+
+DesvY <= -0.8172235221634103 : NoCaida
+DesvY > -0.8172235221634103 : NoCaida
+DesvY is missing : NoCaida
+
+Class distributions
+
+DesvY <= -0.8172235221634103
+Caida	NoCaida	
+0.05940186607710923	0.9405981339228907	
+DesvY > -0.8172235221634103
+Caida	NoCaida	
+0.441452582428476	0.5585474175715239	
+DesvY is missing
+Caida	NoCaida	
+0.39259875346433937	0.6074012465356605	
+
+
+Weight: 0.44
+
+Decision Stump
+
+Classifications
+
+DesvY <= -0.8172235221634103 : NoCaida
+DesvY > -0.8172235221634103 : Caida
+DesvY is missing : NoCaida
+
+Class distributions
+
+DesvY <= -0.8172235221634103
+Caida	NoCaida	
+0.08900954194803037	0.9109904580519695	
+DesvY > -0.8172235221634103
+Caida	NoCaida	
+0.5501143174319794	0.4498856825680206	
+DesvY is missing
+Caida	NoCaida	
+0.4999999999999716	0.5000000000000285	
+
+
+Weight: 0.36
+
+Decision Stump
+
+Classifications
+
+DesvY <= -0.9186768466394597 : NoCaida
+DesvY > -0.9186768466394597 : NoCaida
+DesvY is missing : NoCaida
+
+Class distributions
+
+DesvY <= -0.9186768466394597
+Caida	NoCaida	
+0.0	1.0	
+DesvY > -0.9186768466394597
+Caida	NoCaida	
+0.4512473730263996	0.5487526269736003	
+DesvY is missing
+Caida	NoCaida	
+0.4277774665353125	0.5722225334646875	
+
+
+Weight: 0.29
+
+Decision Stump
+
+Classifications
+
+DesvY <= -0.9186768466394597 : NoCaida
+DesvY > -0.9186768466394597 : Caida
+DesvY is missing : NoCaida
+
+Class distributions
+
+DesvY <= -0.9186768466394597
+Caida	NoCaida	
+0.0	1.0	
+DesvY > -0.9186768466394597
+Caida	NoCaida	
+0.5238051823194154	0.4761948176805847	
+DesvY is missing
+Caida	NoCaida	
+0.4999999999999693	0.5000000000000306	
+
+
+Weight: 0.18
+
+Decision Stump
+
+Classifications
+
+AcelX24 <= 0.6725012890747687 : Caida
+AcelX24 > 0.6725012890747687 : NoCaida
+AcelX24 is missing : NoCaida
+
+Class distributions
+
+AcelX24 <= 0.6725012890747687
+Caida	NoCaida	
+0.5211026923501462	0.47889730764985383	
+AcelX24 > 0.6725012890747687
+Caida	NoCaida	
+0.2403783160681264	0.7596216839318736	
+AcelX24 is missing
+Caida	NoCaida	
+0.45833998139159277	0.5416600186084072	
+
+
+Weight: 0.3
+
+Decision Stump
+
+Classifications
+
+DesvY <= -0.9186768466394597 : NoCaida
+DesvY > -0.9186768466394597 : NoCaida
+DesvY is missing : NoCaida
+
+Class distributions
+
+DesvY <= -0.9186768466394597
+Caida	NoCaida	
+0.0	1.0	
+DesvY > -0.9186768466394597
+Caida	NoCaida	
+0.43434632607861734	0.5656536739213828	
+DesvY is missing
+Caida	NoCaida	
+0.4153150482554419	0.5846849517445581	
+
+
+Weight: 0.34
+
+Decision Stump
+
+Classifications
+
+DesvY <= -0.9186768466394597 : NoCaida
+DesvY > -0.9186768466394597 : Caida
+DesvY is missing : NoCaida
+
+Class distributions
+
+DesvY <= -0.9186768466394597
+Caida	NoCaida	
+0.0	1.0	
+DesvY > -0.9186768466394597
+Caida	NoCaida	
+0.5194641510604209	0.4805358489395792	
+DesvY is missing
+Caida	NoCaida	
+0.49999999999997885	0.5000000000000212	
+
+
+Weight: 0.15
+
+Decision Stump
+
+Classifications
+
+DesvY <= -0.9186768466394597 : NoCaida
+DesvY > -0.9186768466394597 : NoCaida
+DesvY is missing : NoCaida
+
+Class distributions
+
+DesvY <= -0.9186768466394597
+Caida	NoCaida	
+0.0	1.0	
+DesvY > -0.9186768466394597
+Caida	NoCaida	
+0.4819417991374188	0.5180582008625813	
+DesvY is missing
+Caida	NoCaida	
+0.4651425248504999	0.5348574751495002	
+
+
+Weight: 0.14
+
+Number of performed Iterations: 10
+
+
+Time taken to build model: 2.62 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        8848               84.3792 %
+Incorrectly Classified Instances      1638               15.6208 %
+Kappa statistic                          0.6876
+Mean absolute error                      0.2167
+Root mean squared error                  0.3493
+Relative absolute error                 43.3322 %
+Root relative squared error             69.8545 %
+Total Number of Instances            10486     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,880    0,193    0,820      0,880    0,849      0,689    0,909     0,882     Caida
+                 0,807    0,120    0,871      0,807    0,838      0,689    0,909     0,922     NoCaida
+Weighted Avg.    0,844    0,156    0,846      0,844    0,844      0,689    0,909     0,902     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 4616  627 |    a = Caida
+ 1011 4232 |    b = NoCaida
+

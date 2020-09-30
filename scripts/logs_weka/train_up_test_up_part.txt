@@ -1,0 +1,489 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.rules.PART -C 0.25 -M 2
+Relation:     up_falls
+Instances:    11896
+Attributes:   82
+              AcelX0
+              AcelY0
+              AcelZ0
+              AcelX1
+              AcelY1
+              AcelZ1
+              AcelX2
+              AcelY2
+              AcelZ2
+              AcelX3
+              AcelY3
+              AcelZ3
+              AcelX4
+              AcelY4
+              AcelZ4
+              AcelX5
+              AcelY5
+              AcelZ5
+              AcelX6
+              AcelY6
+              AcelZ6
+              AcelX7
+              AcelY7
+              AcelZ7
+              AcelX8
+              AcelY8
+              AcelZ8
+              AcelX9
+              AcelY9
+              AcelZ9
+              AcelX10
+              AcelY10
+              AcelZ10
+              AcelX11
+              AcelY11
+              AcelZ11
+              AcelX12
+              AcelY12
+              AcelZ12
+              AcelX13
+              AcelY13
+              AcelZ13
+              AcelX14
+              AcelY14
+              AcelZ14
+              AcelX15
+              AcelY15
+              AcelZ15
+              AcelX16
+              AcelY16
+              AcelZ16
+              AcelX17
+              AcelY17
+              AcelZ17
+              AcelX18
+              AcelY18
+              AcelZ18
+              AcelX19
+              AcelY19
+              AcelZ19
+              AcelX20
+              AcelY20
+              AcelZ20
+              AcelX21
+              AcelY21
+              AcelZ21
+              AcelX22
+              AcelY22
+              AcelZ22
+              AcelX23
+              AcelY23
+              AcelZ23
+              AcelX24
+              AcelY24
+              AcelZ24
+              MediaX
+              MediaY
+              MediaZ
+              DesvX
+              DesvY
+              DesvZ
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+PART decision list
+------------------
+
+DesvX <= -0.865735 AND
+DesvY <= -0.75607 AND
+AcelZ11 <= 1.052227: NoCaida (2622.0)
+
+DesvZ > -0.027964 AND
+DesvY <= 3.20461 AND
+MediaZ > 0.388051 AND
+AcelY23 <= 2.204661 AND
+MediaY > -1.293904 AND
+AcelY23 > -1.515354 AND
+AcelZ22 > -0.52999 AND
+DesvX > -0.402909: Caida (2105.0/7.0)
+
+DesvY <= -0.33211 AND
+MediaZ > -1.125939 AND
+MediaZ <= 0.789179 AND
+DesvZ <= -0.339595 AND
+AcelX7 <= -0.624137 AND
+MediaY <= -0.185237: NoCaida (746.0)
+
+MediaZ <= -1.376225 AND
+AcelZ24 <= -0.369503 AND
+AcelX24 <= 1.498374 AND
+DesvX > -0.854427 AND
+DesvY <= 2.595862 AND
+DesvX > -0.496246 AND
+AcelZ21 <= -0.36424 AND
+AcelZ15 > -1.625466: Caida (428.0)
+
+AcelZ0 > 1.377591 AND
+DesvY <= 1.849481 AND
+AcelY10 > -0.639408: Caida (212.0/1.0)
+
+AcelZ11 > 1.241552 AND
+AcelZ22 <= 1.530969: Caida (217.0/5.0)
+
+AcelZ6 > 1.271914 AND
+AcelY15 <= 1.554281 AND
+AcelY17 > -1.566864 AND
+DesvZ > -0.599503: Caida (191.0/1.0)
+
+DesvZ > -0.224207 AND
+DesvY > 3.252907 AND
+MediaZ <= 0.490408: NoCaida (139.0)
+
+DesvZ > -0.224207 AND
+DesvX <= 1.962382 AND
+DesvX > -0.741974 AND
+AcelY24 > -2.136942 AND
+MediaY <= 1.687905 AND
+AcelZ19 <= 1.389541 AND
+DesvY > -0.449406 AND
+AcelY19 > -2.134008 AND
+DesvX <= 1.300523 AND
+DesvX > -0.009639 AND
+MediaY <= 1.154179 AND
+AcelY16 > -1.524898 AND
+AcelZ20 <= -0.542903: Caida (265.0/2.0)
+
+DesvZ > -0.212179 AND
+DesvX <= 1.971394 AND
+DesvX <= -0.741974 AND
+AcelZ22 > -1.149147: NoCaida (25.0)
+
+DesvZ > -0.212179 AND
+DesvX <= 1.971394 AND
+AcelY24 > -2.136942 AND
+MediaY <= 1.687905 AND
+AcelZ19 <= 1.389541 AND
+DesvZ <= 2.24196 AND
+MediaY > -0.348037 AND
+AcelX6 > -1.546694 AND
+MediaY <= 0.849228 AND
+AcelX16 > -1.382832 AND
+AcelY5 <= 0.871026 AND
+AcelY9 > -0.184404 AND
+AcelX7 > 1.035295: Caida (120.0/3.0)
+
+DesvZ > -0.208029 AND
+DesvX <= 1.971394 AND
+AcelZ19 <= 1.389541 AND
+DesvZ <= 2.296786 AND
+DesvY <= 2.459313 AND
+DesvY > -0.449406 AND
+AcelX19 <= 1.979374 AND
+AcelX24 <= 1.873912 AND
+AcelZ2 <= 1.68587 AND
+DesvZ > 0.915365 AND
+AcelZ16 > -2.793893 AND
+AcelZ3 > -1.208843 AND
+AcelY1 > -0.504514: Caida (120.0)
+
+MediaZ <= -1.27581 AND
+MediaX <= 0.938532 AND
+AcelY15 > -0.186582 AND
+AcelY21 <= 1.336696: Caida (210.0/5.0)
+
+AcelZ2 > 1.339077 AND
+AcelZ0 <= 0.330772: Caida (52.0)
+
+DesvZ > -0.208029 AND
+DesvX <= 1.61002 AND
+AcelZ19 > 1.389541: Caida (87.0/1.0)
+
+DesvY <= -0.450262 AND
+DesvX <= -0.895853 AND
+AcelX5 > -0.529333: NoCaida (122.0)
+
+AcelZ17 > 0.70432 AND
+DesvZ <= -0.784852 AND
+DesvX > -0.892706: NoCaida (26.0)
+
+AcelZ17 > 0.70432 AND
+MediaY > -0.676433 AND
+AcelY10 <= 0.962775 AND
+DesvY > -0.25638 AND
+AcelZ23 > 1.112565: Caida (105.0)
+
+AcelZ17 > 0.70432 AND
+AcelX13 > 0.540634 AND
+AcelZ14 > 0.811163: Caida (55.0)
+
+DesvZ <= -0.208029 AND
+DesvX > 1.561174: NoCaida (222.0/1.0)
+
+DesvY <= -0.432484 AND
+AcelZ16 <= 0.90069 AND
+AcelZ24 > -0.878816 AND
+AcelZ7 <= 0.904899 AND
+DesvY <= -0.689762 AND
+AcelZ0 > -0.29732: NoCaida (219.0/1.0)
+
+MediaX <= -1.004532 AND
+DesvZ <= 0.213003 AND
+AcelZ20 <= 0.655499 AND
+MediaZ > -1.028527 AND
+AcelZ24 <= 0.650867 AND
+MediaY <= -0.361611 AND
+AcelY0 > -1.277469: NoCaida (187.0)
+
+DesvY > -0.331907 AND
+DesvZ > 2.296786: Caida (62.0)
+
+DesvY > -0.331907 AND
+AcelY7 <= -2.707359 AND
+AcelZ13 <= -0.108809: NoCaida (23.0)
+
+DesvY > -0.331907 AND
+AcelY10 <= -2.686883 AND
+DesvY > 1.399906: NoCaida (27.0)
+
+DesvY > -0.331907 AND
+MediaX > -1.210654 AND
+AcelX22 > 2.227 AND
+AcelZ21 <= 0.539924 AND
+DesvX > 0.610062: NoCaida (33.0)
+
+DesvY > -0.331907 AND
+MediaX > -1.210654 AND
+AcelY23 > 2.241382 AND
+AcelX0 <= 0.557852 AND
+AcelX0 > -0.638083: NoCaida (29.0)
+
+DesvY > -0.331907 AND
+MediaX > -1.210654 AND
+DesvX <= 2.133175 AND
+DesvY <= 2.663664 AND
+MediaY <= -1.405454 AND
+AcelX21 > -0.296978 AND
+AcelY22 <= -0.603 AND
+AcelZ13 <= 0.219707: Caida (127.0)
+
+DesvY > -0.331907 AND
+MediaX > -1.210654 AND
+MediaY <= -1.514042 AND
+AcelX7 > -0.317196 AND
+AcelZ18 > -0.920092: NoCaida (23.0)
+
+DesvY > -0.331907 AND
+MediaX > -1.210654 AND
+DesvX <= 2.001123 AND
+AcelY20 > 2.037074 AND
+AcelX7 <= 1.068917 AND
+AcelY14 <= 1.6338: NoCaida (18.0)
+
+DesvY > -0.331907 AND
+MediaX > -1.210654 AND
+DesvX <= 2.001123 AND
+AcelY6 > -1.79376 AND
+AcelZ21 > 0.409036 AND
+DesvX > -0.276534: Caida (235.0/21.0)
+
+AcelZ22 <= -1.159582 AND
+DesvY > -0.493445 AND
+AcelX22 > -1.536546 AND
+AcelZ24 > -1.899186 AND
+DesvY > 0.053004: Caida (65.0)
+
+AcelZ17 > 0.798564 AND
+AcelY14 > 0.034706 AND
+AcelX17 <= -0.040018: Caida (92.0/1.0)
+
+DesvY <= -0.43036 AND
+AcelX0 > 0.93449 AND
+AcelX10 > 0.691003 AND
+MediaY > 0.436676: NoCaida (147.0)
+
+MediaX <= -1.231152 AND
+DesvZ <= 0.989624 AND
+DesvZ <= -0.426504 AND
+AcelZ20 > -0.840792 AND
+AcelY23 > -0.246079: NoCaida (107.0)
+
+AcelZ9 <= 1.465221 AND
+DesvX > 1.961315 AND
+DesvZ <= 0.896011 AND
+MediaZ <= 0.265646: NoCaida (100.0)
+
+DesvY > -0.331827 AND
+AcelX24 > -1.17669 AND
+AcelX20 > 1.994317 AND
+AcelY0 <= 0.292291: NoCaida (16.0)
+
+DesvY > -0.331827 AND
+AcelX24 > -1.17669 AND
+DesvZ > -0.470628 AND
+AcelZ6 > -1.758488 AND
+MediaY <= 0.887069 AND
+AcelX10 > -0.041514 AND
+AcelY17 > -1.646064 AND
+AcelY17 <= 0.847243 AND
+DesvX <= 1.365554 AND
+DesvY <= 0.302585 AND
+MediaY <= 0.706007 AND
+AcelZ8 > -0.650234 AND
+AcelY24 > -1.128681 AND
+AcelX4 <= 1.194166: Caida (91.0)
+
+DesvY > 0.186804 AND
+AcelY5 > -1.505153 AND
+AcelX17 > -1.66783 AND
+AcelY16 <= 1.938444 AND
+AcelY20 > -1.605624 AND
+AcelZ8 > -1.516796 AND
+AcelY13 > -1.439284 AND
+AcelX24 > -1.072517 AND
+AcelZ11 <= 0.667662 AND
+AcelX0 <= 1.738634 AND
+AcelX0 > 0.245069: Caida (143.0)
+
+AcelX24 > 1.494515 AND
+DesvZ <= -0.144162 AND
+AcelZ3 > -0.692815 AND
+AcelZ22 <= 0.270045 AND
+AcelX10 > 0.630321: NoCaida (79.0)
+
+DesvZ > -0.261533 AND
+AcelX6 > 1.481581 AND
+AcelY21 <= 0.230687: NoCaida (19.0)
+
+AcelZ23 <= -1.206462 AND
+DesvX > -0.853581 AND
+AcelX23 <= 1.091974 AND
+AcelX5 > -0.781813: Caida (143.0/21.0)
+
+AcelZ9 > 1.260532 AND
+DesvZ > -0.660012 AND
+AcelZ22 > -0.94566: Caida (32.0)
+
+DesvX > 0.063336 AND
+MediaY > -0.785268 AND
+AcelY7 <= 1.171845 AND
+AcelY3 <= -0.24724 AND
+AcelX4 <= 0.631136 AND
+AcelX23 <= -0.014455: Caida (77.0/1.0)
+
+MediaY <= -0.250472 AND
+MediaX <= 1.317419 AND
+MediaY > -1.063895 AND
+MediaZ <= -0.678887 AND
+AcelY0 <= 0.163475 AND
+AcelZ16 > -2.478851 AND
+AcelZ18 > -1.577495: NoCaida (94.0)
+
+MediaZ <= -0.466665 AND
+AcelZ21 > -0.104185 AND
+AcelY22 > -1.272453 AND
+AcelY2 <= 1.060007: NoCaida (44.0/2.0)
+
+DesvZ > 0.898717 AND
+AcelX5 <= 0.052562: Caida (29.0)
+
+MediaZ <= -0.466665 AND
+MediaY > -0.103961 AND
+AcelX23 > 1.236954 AND
+AcelZ20 <= -0.166262: Caida (68.0/1.0)
+
+MediaZ <= -0.702202 AND
+DesvX > -0.72483 AND
+AcelZ7 <= -1.330198 AND
+AcelX11 <= 0.486478: NoCaida (8.0)
+
+MediaZ <= -0.702202 AND
+DesvX > -0.72483 AND
+MediaY > -1.416641 AND
+AcelY15 > -0.119859 AND
+AcelZ19 > -0.843626: Caida (51.0/1.0)
+
+MediaZ <= -1.2056 AND
+AcelX20 <= -0.219818: Caida (45.0)
+
+AcelX21 > 1.37917 AND
+AcelY16 > -0.050391 AND
+MediaY > 0.486939 AND
+AcelX19 <= 2.086147 AND
+AcelX1 <= 1.351112: NoCaida (38.0)
+
+AcelX23 <= 0.134341 AND
+MediaZ > 1.084064 AND
+AcelZ20 <= 1.318045: NoCaida (57.0)
+
+MediaZ > 1.000341 AND
+AcelZ1 <= 1.0164 AND
+AcelZ6 <= 1.142676 AND
+AcelY3 <= 0.877612: Caida (51.0)
+
+MediaX <= 0.105315 AND
+AcelY3 <= -0.953404 AND
+AcelZ14 > -1.119247 AND
+AcelX15 <= 0.128777: NoCaida (62.0)
+
+MediaY <= -1.6928 AND
+DesvX > -0.8165: Caida (42.0/1.0)
+
+DesvY <= -0.464196 AND
+AcelX24 <= -0.599237 AND
+MediaY > -0.118522: NoCaida (70.0/1.0)
+
+AcelX16 <= -1.550136 AND
+DesvX > 0.683385: NoCaida (18.0)
+
+AcelX6 > -0.349065 AND
+AcelX6 <= 0.051592 AND
+AcelZ3 <= 0.465586 AND
+AcelX12 > -0.271292 AND
+AcelY14 > -1.35523: NoCaida (73.0)
+
+AcelX8 > 1.449077 AND
+AcelY6 <= 0.874902 AND
+AcelY18 <= 0.697974: NoCaida (29.0/1.0)
+
+DesvZ > 0.676306 AND
+AcelZ19 > -0.238705: Caida (21.0)
+
+AcelY23 <= -0.268431 AND
+MediaX > 1.309151 AND
+AcelY8 <= 0.24629: NoCaida (44.0)
+
+AcelX0 > 1.409617 AND
+AcelZ12 <= 0.397947 AND
+AcelZ13 > -0.25649: Caida (27.0)
+
+: Caida (862.0/416.0)
+
+Number of Rules  : 	64
+
+
+Time taken to build model: 7.67 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       10983               92.3252 %
+Incorrectly Classified Instances       913                7.6748 %
+Kappa statistic                          0.8465
+Mean absolute error                      0.0836
+Root mean squared error                  0.2469
+Relative absolute error                 16.718  %
+Root relative squared error             49.3807 %
+Total Number of Instances            11896     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,952    0,105    0,901      0,952    0,925      0,848    0,955     0,926     Caida
+                 0,895    0,048    0,949      0,895    0,921      0,848    0,955     0,954     NoCaida
+Weighted Avg.    0,923    0,077    0,925      0,923    0,923      0,848    0,955     0,940     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 5660  288 |    a = Caida
+  625 5323 |    b = NoCaida
+
